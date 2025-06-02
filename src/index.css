@@ -13,9 +13,6 @@
 --color-azulOscuro: hsl(224, 30%, 27%);
 --color-linearUno:hsl(252, 100%, 67%);
 --color-linearDos:hsl(241, 81%, 54%);
-
-        --color-gradient-circle': 'radial-gradient(circle, hsl(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%)';
-        --color-gradient-section': 'linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))';
-
-
+--color-circleUno: hsl(256, 72%, 46%, 1);
+--color-circleDos: hsl(241, 72%, 46%, 0);
 }

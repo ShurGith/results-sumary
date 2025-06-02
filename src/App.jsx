@@ -14,7 +14,7 @@ function App() {
     <div
       className="
         min-h-screen flex items-center justify-center
-        bg-pale-blue font-sans
+        bg-azul font-poppins
       "
     >
       <div
@@ -33,7 +33,7 @@ function App() {
             flex flex-col items-center justify-center
             text-center
             bg-gradient-section
-            p-8 md:p-10
+            p-8 md:p-14
             rounded-b-3xl md:rounded-3xl md:rounded-l-3xl md:rounded-br-none
             text-white
             flex-1
@@ -46,7 +46,7 @@ function App() {
             className="
               w-36 h-36 md:w-48 md:h-48
               rounded-full
-              bg-gradient-circle
+              bg-linear-to-b from-circleUno to-circleDos
               flex flex-col items-center justify-center
               mb-6
               shadow-lg
@@ -98,8 +98,8 @@ function App() {
           <button
             className="
               w-full py-4 rounded-full
-              bg-lavander text-white text-lg font-medium
-              hover:bg-cobalt-blue focus:bg-cobalto
+              bg-cobalto text-white text-lg font-medium
+              hover:bg-cobalto focus:bg-cobalto
               focus:outline-none focus:ring-2 focus:ring-cobalto focus:ring-offset-2
               transition duration-200 cursor-pointer
             "
